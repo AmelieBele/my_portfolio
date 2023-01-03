@@ -1,6 +1,12 @@
 <template>
-  <HeaderComponent/>
+  <div>
+    <HeaderComponent/>
+    <div class="container">
+      <router-view/>   
+    </div>
+  </div>  
 </template>
+
 
 <script>
 
