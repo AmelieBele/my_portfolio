@@ -1,21 +1,30 @@
 <template>
     <QuoteComponent/>
     <WhoIAmComponent/>
-    <HardsSkillsComponent/>
+    <HardSkillsComponent/>
+    <SoftSkillsComponent/>
+    <AllProjectsComponent/>
+    <FooterComponent/>
   </template>
   
   <script>
   
   import QuoteComponent from "../components/QuoteComponent.vue"
   import WhoIAmComponent from "../components/WhoIAmComponent.vue"
-  import HardsSkillsComponent from "../components/HardsSkillsComponent"
+  import HardSkillsComponent from "../components/HardSkillsComponent"
+  import FooterComponent from "../components/FooterComponent.vue"
+  import SoftSkillsComponent from "../components/SoftSkillsComponent.vue"
+  import AllProjectsComponent from "../components/AllProjectsComponent.vue"
 
   export default {
     name: 'HomePage',
     components: {
       QuoteComponent,
       WhoIAmComponent,
-      HardsSkillsComponent,
+      FooterComponent,
+      SoftSkillsComponent,
+      HardSkillsComponent,
+      AllProjectsComponent,
     },
 }
   </script>

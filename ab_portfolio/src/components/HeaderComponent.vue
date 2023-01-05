@@ -1,7 +1,7 @@
 <template>    
     <div class="container">
         <div class="header">
-            <p>AB<span>.</span></p>     
+            <p><span>.</span>AB</p>     
         </div>
 
         <div class="search">
