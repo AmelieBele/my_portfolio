@@ -1,10 +1,9 @@
 <template>  
     <div class="border"></div>
-    <div>
+    <div class="container">
         <p class="text">
             Amélie Benoist © 2023
         </p>
-        <p class="ab"><span>.</span>AB</p>
     </div>
 </template>
 
@@ -18,10 +17,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    .container{
+        display:flex;
+        justify-content:center;
+    }
     .border{
         border-top: ridge  #70081858;
         margin-left: 15px;
         margin-right: 15px;
+        
     }
     div{
         display: flex;
@@ -31,7 +35,7 @@ export default {
         
     }
     .text{
-            margin-left: 40px;
+            text-align: center;
             font-size:12px;
         }
     .ab{

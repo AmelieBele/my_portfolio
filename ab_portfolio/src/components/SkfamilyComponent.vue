@@ -1,10 +1,10 @@
 <template>    
   <div class="container">
     <div class="project">
-      <img src="../assets/images/groupomania/connexion.jpg"/>
+      <img src="../assets/images/skfamily/accueil.jpg">
       <div class="text-project">
-        <p class="title">Groupomania</p>
-        <p class="see-project"><button  @click.prevent="groupomania">Voir mon projet <i class="fa-solid fa-arrow-right"></i> </button></p>
+        <p class="title">Sk Family Events</p>
+        <p class="see-project"><button  @click.prevent="skfamily">Voir mon projet <i class="fa-solid fa-arrow-right"></i> </button></p>
       </div>
     </div>
   </div>
@@ -13,10 +13,10 @@
 <script>
 
 export default {
-  name: 'GroupomaniaComponent',
+  name: 'SkfamilyComponent',
   methods:{
-    groupomania(){
-      this.$router.push('/Groupomania')
+    skfamily(){
+      this.$router.push('/SKFamily')
     }
   }
 }

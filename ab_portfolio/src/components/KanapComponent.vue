@@ -1,10 +1,10 @@
 <template>    
   <div class="container">
     <div class="project">
-      <img src="../assets/images/groupomania/connexion.jpg"/>
+      <img src="../assets/images/kanap/kanap1.jpg"/>
       <div class="text-project">
-        <p class="title">Groupomania</p>
-        <p class="see-project"><button  @click.prevent="groupomania">Voir mon projet <i class="fa-solid fa-arrow-right"></i> </button></p>
+        <p class="title">Kanap</p>
+        <p class="see-project"><button @click.prevent="kanap">Voir mon projet <i class="fa-solid fa-arrow-right"></i> </button></p>
       </div>
     </div>
   </div>
@@ -13,10 +13,10 @@
 <script>
 
 export default {
-  name: 'GroupomaniaComponent',
+  name: 'KanapComponent',
   methods:{
-    groupomania(){
-      this.$router.push('/Groupomania')
+    kanap(){
+      this.$router.push('/Kanap')
     }
   }
 }

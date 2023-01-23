@@ -1,18 +1,66 @@
 <template>    
-    <div class="container">
-        
+  <div class="container">
+    <div class="project">
+      <img src="../assets/images/booki/booki2.jpg"/>
+      <div class="text-project">
+        <p class="title">Booki</p>
+        <p class="see-project"><button  @click.prevent="booki">Voir mon projet <i class="fa-solid fa-arrow-right"></i> </button></p>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 
 export default {
   name: 'BookiComponent',
-
+  methods:{
+    booki(){
+      this.$router.push('/Booki')
+    }
+  }
 }
 
 </script>
 
 <style lang="scss" scoped>
+  .container {
+    width: 40%;
+    text-align: center;
 
+  }
+  img{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .project{
+    border-radius: 30px;
+    background-color: white;
+  }
+  p{
+    background-color: white;
+    color: #700817;
+  }
+  button{
+    background-color: white;
+    color: #700817;
+    border-style:none;
+    cursor: pointer;
+    margin-bottom:10px;
+    margin-top: 15px;
+  }
+  .title{
+    font-weight:600;
+    margin-top: 10px;
+  }
+  .see-project{
+    border-radius: 0px 0px 30px 30px;
+    color: #700817;
+  }
+  i{
+    background-color: white;
+    margin-left: 5px;
+    color: #700817;
+    
+  }
 </style>
