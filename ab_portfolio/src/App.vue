@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
 
   *{
-    margin: 0;
+    margin:0;
     background-color:#16171d;
     font-family: "Poppins", sans-serif;
     color: white;

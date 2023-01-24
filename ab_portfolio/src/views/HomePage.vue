@@ -4,6 +4,7 @@
     <HardSkillsComponent/>
     <SoftSkillsComponent/>
     <AllProjectsComponent/>
+    <ContactComponent/>
     <FooterComponent/>
   </template>
   
@@ -15,6 +16,7 @@
   import FooterComponent from "../components/FooterComponent.vue"
   import SoftSkillsComponent from "../components/SoftSkillsComponent.vue"
   import AllProjectsComponent from "../components/AllProjectsComponent.vue"
+  import ContactComponent from "@/components/ContactComponent.vue"
 
   export default {
     name: 'HomePage',
@@ -25,6 +27,7 @@
       SoftSkillsComponent,
       HardSkillsComponent,
       AllProjectsComponent,
+      ContactComponent,
     },
 }
   </script>
