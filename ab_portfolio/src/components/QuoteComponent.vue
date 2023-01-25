@@ -1,10 +1,10 @@
-<template>    
+<template>       
     <div class="container">
         <p class="me">
-        Bonjour, je suis Amélie Benoist,<br/>
+        <span>alert("</span>Bonjour, je suis Amélie Benoist,<br/>
         Développeur web,<br/>
         basée à Tours.<br/>
-        Bienvenue sur mon portfolio !
+        Bienvenue sur mon portfolio !<span>")</span>
         </p>
         <img src="../assets/images/me.gif"/>
     </div>
@@ -21,9 +21,9 @@ export default {
 
 <style lang="scss" scoped>
   .container{
-
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom:150px;
     .me{
@@ -38,7 +38,20 @@ export default {
       margin-top:100px;
 
     }
-
+    span{
+        color: #700817;
+        font-family: 'La belle Aurore', sans-serif;
+        font-size:1rem;
+    }
+    @media only screen and (max-width: 566px){
+    .container{
+      text-align: center;
+      width: 100%;
+    }
+    img{
+      width:80%;
+    }
+  }
   };
   
 

@@ -27,7 +27,6 @@ export default {
   .container {
     width: 40%;
     text-align: center;
-
   }
   img{
     width: 100%;
@@ -48,6 +47,7 @@ export default {
     cursor: pointer;
     margin-bottom:10px;
     margin-top: 15px;
+    border-radius: 0px 0px 30px 30px;
   }
   .title{
     font-weight:600;
@@ -61,6 +61,12 @@ export default {
     background-color: white;
     margin-left: 5px;
     color: #700817;
-    
+  }
+
+  @media only screen and (max-width: 763px){
+    .container{
+      width: 85%;
+      text-align: center;
+    }
   }
 </style>

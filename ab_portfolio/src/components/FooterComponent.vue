@@ -2,7 +2,7 @@
     <div class="border"></div>
     <div class="container">
         <p class="text">
-            Amélie Benoist © 2023
+            Amélie Benoist © 2023<span> }</span>
         </p>
     </div>
 </template>
@@ -35,16 +35,14 @@ export default {
         
     }
     .text{
-            text-align: center;
-            font-size:12px;
-        }
-    .ab{
-        margin-right:40px;
-        font-size:30px;
+        text-align: center;
+        font-size:12px;
+    }
 
-        span{
-            color: #700817;
-        }
+    span{
+        color: #700817;
+        font-family: 'La belle Aurore', sans-serif;
+        font-size:1rem;
     }
     
 </style>
